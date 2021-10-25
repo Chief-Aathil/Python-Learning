@@ -17,3 +17,11 @@ for i in range(2,8):    #2-7
 print("---------")
 for i in range(2,10,3): #2-10 with step=3
     print(i)
+
+print("---------")
+arr=[10,20,30,40]
+for i in range(len(arr)):     #iterate over indices of arr
+    print(arr[i])
+
+print("---------")
+print(range(10))       #prints the iterable object returned 

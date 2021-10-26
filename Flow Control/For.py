@@ -25,3 +25,11 @@ for i in range(len(arr)):     #iterate over indices of arr
 
 print("---------")
 print(range(10))       #prints the iterable object returned 
+
+print("---------")
+for i in range(5):
+    if(i==4):
+        break
+    if(i==2):
+        continue
+    print(i)

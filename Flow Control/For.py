@@ -33,3 +33,13 @@ for i in range(5):
     if(i==2):
         continue
     print(i)
+
+print("---------")
+a=[7,23,66,32,90]  #add 10 to change the output
+b=10
+for i in a:
+    if(i==b):
+        print(b, "is present in a")
+        break
+else:           #when the loop exits normally(without break)
+    print("element not found")
